@@ -70,7 +70,7 @@ const skills = await Promise.all(
     const url = `https://raw.githubusercontent.com/z00rat/neo-retro/master/${rawPath}`;
     const response = await fetch(url);
     if (!response.ok) throw new Error(`Skill file request failed: ${response.status} ${path}`);
-    return { target: `.agent/skills/neo-retro/${relativePath}`, content: await response.text() };
+    return { target: `.agents/skills/neo-retro/${relativePath}`, content: await response.text() };
   }),
 );
 

@@ -32,4 +32,4 @@ After completing the code, ask the user if they want a playground link. Only cal
 
 ### **Neo-Retro skill**
 
-Follow `.agent/skills/neo-retro/SKILL.md` when building or changing UI with this design system. It links to focused references for visual guidance, tokens, component choices, examples, and setup.
+Follow `.agents/skills/neo-retro/SKILL.md` when building or changing UI with this design system. It links to focused references for visual guidance, tokens, component choices, examples, and setup.
