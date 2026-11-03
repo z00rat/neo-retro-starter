@@ -533,7 +533,7 @@
     >
       <div class="bg-clr flex min-h-0 flex-1 flex-col" data-color={color}>
         <section class="relative flex min-h-0 flex-1 flex-col bg-black">
-          <div class="absolute top-3 right-3 left-3 z-10 flex items-center justify-between gap-2">
+          <div class="absolute inset-x-3 top-3 z-10 flex items-center justify-between gap-2">
             {#if allImages.length > 1 || currentScale > 1.01}
               <span
                 class="neoretro-border neoretro-clr neoretro-shadow rounded px-2.5 py-1 font-mono text-xs font-bold select-none"
@@ -620,7 +620,7 @@
           <div class="relative min-h-0 flex-1 overflow-hidden">
             {#key currentIndex}
               <div
-                class="h-full w-full touch-none"
+                class="size-full touch-none"
                 use:bindPanzoom
                 use:swipe={{
                   onSwipeLeft: next,
@@ -635,7 +635,7 @@
                   alt={currentAlt}
                   width={currentImage.width}
                   height={currentImage.height}
-                  class="pointer-events-none block h-full w-full object-contain select-none"
+                  class="pointer-events-none block size-full object-contain select-none"
                   draggable="false"
                 />
               </div>

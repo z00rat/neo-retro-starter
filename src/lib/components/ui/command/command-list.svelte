@@ -9,6 +9,6 @@
   tabindex={-1}
   bind:ref
   data-slot="command-list"
-  class={cn('max-h-[300px] scroll-py-1 overflow-x-hidden overflow-y-auto md:max-h-[450px] lg:max-h-[600px]', className)}
+  class={cn('max-h-75 scroll-py-1 overflow-x-hidden overflow-y-auto md:max-h-112.5 lg:max-h-150', className)}
   {...restProps}
 />

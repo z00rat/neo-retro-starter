@@ -26,6 +26,6 @@
   bind:ref
   data-slot="command"
   data-color={color}
-  class={cn('neoretro-shadow neoretro-clr flex h-full w-full flex-col overflow-hidden rounded', className)}
+  class={cn('neoretro-shadow neoretro-clr flex size-full flex-col overflow-hidden rounded', className)}
   {...restProps}
 />

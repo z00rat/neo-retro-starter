@@ -115,7 +115,7 @@
         {#if !noShadow}
           <!-- Ghost shadow under the Z-10 track -->
           <div
-            class="neoretro-shadow pointer-events-none absolute z-0 block h-5 w-5 rounded outline-hidden"
+            class="neoretro-shadow pointer-events-none absolute z-0 block size-5 rounded outline-hidden"
             style={props.style as string}
           ></div>
         {/if}
@@ -125,7 +125,7 @@
           {...props}
           data-slot="slider-thumb"
           data-color={color}
-          class="neoretro-focus neoretro-border neoretro-clr absolute z-20 block h-5 w-5 rounded border-2"
+          class="neoretro-focus neoretro-border neoretro-clr absolute z-20 block size-5 rounded border-2"
         ></span>
       {/snippet}
     </SliderPrimitive.Thumb>

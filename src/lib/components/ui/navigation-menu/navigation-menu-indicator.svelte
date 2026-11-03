@@ -16,6 +16,6 @@
 >
   <div
     data-color={getColor()}
-    class={cn('neoretro-border neoretro-clr relative top-[60%] h-2 w-2 rotate-45 rounded-tl-sm')}
+    class={cn('neoretro-border neoretro-clr relative top-[60%] size-2 rotate-45 rounded-tl-sm')}
   ></div>
 </NavigationMenuPrimitive.Indicator>

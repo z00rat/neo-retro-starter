@@ -25,7 +25,7 @@
     data-slot="alert-dialog-content"
     data-color={getColor()}
     class={cn(
-      'neoretro-shadow neoretro-border neoretro-clr neoretro-animate fixed start-[50%] top-[50%] z-50 grid w-full max-w-[calc(100%-2rem)] translate-x-[-50%] translate-y-[-50%] gap-4 rounded p-6 duration-200 sm:max-w-lg',
+      'neoretro-shadow neoretro-border neoretro-clr neoretro-animate fixed inset-s-[50%] top-[50%] z-50 grid w-full max-w-[calc(100%-2rem)] translate-[-50%] gap-4 rounded p-6 duration-200 sm:max-w-lg',
       className,
     )}
     {...restProps}

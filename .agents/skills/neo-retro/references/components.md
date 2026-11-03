@@ -5,7 +5,7 @@ Neo-Retro follows shadcn-svelte conventions, with heavily customized components 
 ## Choose by UI job
 
 - **Actions.** Use `Button` for button actions and `Button href` for button-styled links. Keep anchors for text links. Use `ButtonGroup` for related actions and `ToggleGroup` for grouped toggle buttons.
-- **Navigation.** Prefer `NavigationMenu` when site navigation needs its menu behavior. Use semantic `<nav>` links for simple inline navigation. Use `Tabs` for related panels and `Breadcrumb` for breadcrumb trails. Use `Sidebar` only when the user requests it.
+- **Navigation.** Prefer `NavigationMenu` when site navigation needs its menu behavior. Use semantic `<nav>` links for simple inline navigation. For a page header, keep primary links centered when requested and place utilities such as `ThemePicker` at the right edge; inspect the component layout and preserve its built-in spacing. Use `Tabs` for related panels and `Breadcrumb` for breadcrumb trails. Use `Sidebar` only when the user requests it.
 - **Inputs.** Use `Input` for text-like `<input>` controls, `Textarea` for `<textarea>`, `Select` for `<select>`, and `Slider` for range input. Use `Calendar`, `RangeCalendar`, or `InputOTP` for matching controls.
 - **Choices.** Use `Switch` for one on/off setting. Use `Checkbox` to select multiple items of the same kind. Use `RadioGroup` for one choice from a set and `Toggle` for one pressed or unpressed control.
 - **Forms.** Wrap each labeled control in `Field.Field`. Add `Field.Description` or `Field.Error` when needed. Group related controls with `Field.FieldSet` and `Field.Legend`. Use `InputGroup` for content attached to an input.
@@ -18,7 +18,7 @@ Neo-Retro follows shadcn-svelte conventions, with heavily customized components 
 - **Other utilities.** Use `CodeBlock` for `<pre>` content that needs highlighting or copy. Use `Separator` for a visual `<hr>`, and `Kbd` for key labels. Use `QRCode` for QR codes, `Resizable` for adjustable panes, and `ScrollArea` for a bounded scroll region.
 - **Loading.** Use `Skeleton` placeholders while content loads. Use `Spinner` while an action or operation runs.
 - **Command palettes.** Do not add a global `Command` palette unless the user asks for it.
-- **Backgrounds.** Use `BackgroundPattern` only as a decorative background behind colored `Card` or `Item` surfaces.
+- **Backgrounds.** Use `BackgroundPattern` only as a decorative background behind colored `Card` or `Item` surfaces. The pattern marks and the section background are separate color choices: keep the marks visible against the section background, and keep content on a readable surface. When possible, choose different colors for a surface and its parent section, and for a component and its containing surface, so neighboring layers do not visually merge.
 
 ## Replace native controls
 

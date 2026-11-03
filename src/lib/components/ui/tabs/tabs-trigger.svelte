@@ -27,8 +27,8 @@
   data-inactive-color={tabsState?.inactiveColor}
   class={cn(
     'neoretro-border neoretro-focus disabled:neoretro-disable inline-flex h-full min-w-0 flex-1 basis-0 cursor-pointer items-center justify-center gap-1.5 rounded font-bold whitespace-nowrap transition-all',
-    'data-[state=active]:bg-clr-active data-[state=active]:text-on-clr-active data-[state=active]:z-0 data-[state=active]:translate-x-[4px] data-[state=active]:translate-y-[4px] data-[state=active]:shadow-none',
-    'data-[state=inactive]:bg-clr-inactive data-[state=inactive]:text-on-clr-inactive data-[state=inactive]:shadow-shadow data-[state=inactive]:enabled:active:translate-x-[4px] data-[state=inactive]:enabled:active:translate-y-[4px] data-[state=inactive]:enabled:active:shadow-none',
+    'data-[state=active]:bg-clr-active data-[state=active]:text-on-clr-active data-[state=active]:z-0 data-[state=active]:translate-1 data-[state=active]:shadow-none',
+    'data-[state=inactive]:bg-clr-inactive data-[state=inactive]:text-on-clr-inactive data-[state=inactive]:shadow-shadow data-[state=inactive]:enabled:active:translate-1 data-[state=inactive]:enabled:active:shadow-none',
     className,
   )}
   {...restProps}

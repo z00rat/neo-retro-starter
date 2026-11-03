@@ -31,7 +31,7 @@
     data-slot={dataSlot}
     data-color={color}
     class={cn(
-      'peer file:font-heading neoretro-border focus-visible:neoretro-focus disabled:neoretro-disable neoretro-invalid flex h-10 w-full rounded px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm placeholder:text-current/50',
+      'peer neoretro-border focus-visible:neoretro-focus disabled:neoretro-disable neoretro-invalid flex h-10 w-full rounded px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm placeholder:text-current/50',
       color ? 'neoretro-clr' : 'bg-background text-foreground selection:bg-foreground selection:text-background',
       noShadow ? '' : 'neoretro-shadow',
       className,
@@ -47,7 +47,7 @@
     data-slot={dataSlot}
     data-color={color}
     class={cn(
-      'peer file:font-heading neoretro-border focus-visible:neoretro-focus disabled:neoretro-disable neoretro-invalid flex h-10 w-full rounded px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm placeholder:text-current/50',
+      'peer neoretro-border focus-visible:neoretro-focus disabled:neoretro-disable neoretro-invalid flex h-10 w-full rounded px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm placeholder:text-current/50',
       color ? 'neoretro-clr' : 'bg-background text-foreground selection:bg-foreground selection:text-background',
       noShadow ? '' : 'neoretro-shadow',
       className,

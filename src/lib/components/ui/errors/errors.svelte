@@ -11,7 +11,7 @@
   ></div>
 
   <!-- SMPTE Content Background -->
-  <div class="absolute inset-0 z-0 flex h-full w-full flex-col">
+  <div class="absolute inset-0 z-0 flex size-full flex-col">
     <div class="flex h-[84%] w-full">
       <div class="flex-1 bg-white"></div>
       <div class="bg-yellow flex-1"></div>
@@ -45,10 +45,10 @@
   <div class="relative z-20 flex w-full flex-col items-center justify-center px-4">
     <button
       onclick={() => history.back()}
-      class="group neoretro-border font-inherit flex max-w-[95vw] cursor-pointer appearance-none flex-col items-center justify-center border-none bg-black p-4 md:p-6"
+      class="group neoretro-border flex max-w-[95vw] cursor-pointer appearance-none flex-col items-center justify-center border-none bg-black p-4 font-[inherit] md:p-6"
     >
       <h1
-        class="mb-0 overflow-hidden text-center font-mono text-3xl leading-none font-black tracking-wide text-ellipsis whitespace-nowrap text-white uppercase sm:text-4xl md:text-5xl lg:text-6xl"
+        class="mb-0 truncate text-center font-mono text-3xl leading-none font-black tracking-wide text-white uppercase sm:text-4xl md:text-5xl lg:text-6xl"
       >
         <span class="inline-block group-hover:hidden">{message}</span>
         <ArrowLeft class="hidden size-16 align-middle group-hover:inline-block" />

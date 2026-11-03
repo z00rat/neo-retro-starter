@@ -13,7 +13,7 @@
   data-slot="table-head"
   data-color={getHeaderColor()}
   class={cn(
-    'font-heading neoretro-clr not-first:border-border h-12 px-4 text-left align-middle font-semibold not-first:border-l-2',
+    'neoretro-clr not-first:border-border h-12 px-4 text-left align-middle font-semibold not-first:border-l-2',
     className,
   )}
   {...restProps}
