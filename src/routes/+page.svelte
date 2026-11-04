@@ -859,9 +859,7 @@
   </section>
 
   <footer class="neoretro-border-t">
-    <div
-      class="mx-auto flex max-w-7xl flex-col justify-between gap-2 px-5 py-5 text-sm sm:flex-row sm:items-center lg:px-8"
-    >
+    <div class="mx-auto flex max-w-7xl flex-col justify-between gap-2 p-5 text-sm sm:flex-row sm:items-center lg:px-8">
       <span class="font-bold">NEO/RETRO STUDIO <span class="font-normal">· Component demo</span></span>
       <span class="font-mono text-xs">MADE FOR BUILDING THINGS THAT STAND OUT</span>
     </div>

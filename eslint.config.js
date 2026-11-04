@@ -25,7 +25,7 @@ export default defineConfig(
   {
     settings: {
       tailwindcss: {
-        cssConfigPath: './src/lib/registry/ui/style/tailwind.css',
+        cssConfigPath: './src/lib/components/ui/style/tailwind.css',
       },
     },
     rules: {
